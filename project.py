@@ -30,12 +30,6 @@ language_dropdown = ttk.Combobox(app, values=["తేలుగు ", "English", 
 language_dropdown.pack(padx=20, fill="x")
 language_dropdown.set("English")  # Set default language
 
-language = list(LANGUAGES.values())
-
-dest_lang= ttk.Combobox(app, values= language, width=22)
-dest_lang.place(x=130, y=180)
-dest_lang.set('choose language')
-#root.mainloop()
 
 # Translate Button
 translate_button = tk.Button(app, text="Translate", bg="#007BFF", fg="white", font=("Arial", 12, "bold"))
