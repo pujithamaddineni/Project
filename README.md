@@ -1,0 +1,88 @@
+# 🌐 Language Translator with Streamlit
+
+This project is a multilingual **Language Translator** built with **Streamlit**, allowing users to translate between languages using **text, speech (from file or microphone), and speech output**.
+
+---
+
+## 🚀 Features
+
+* **Text Translation**: Translate text input into the selected target language.
+* **Speech-to-Text Translation**: Upload audio files to extract and translate the spoken content.
+* **Speech-to-Speech Translation**: Speak directly into the microphone to translate and hear the translated response.
+* **Text-to-Speech**: Convert entered text into speech.
+
+---
+
+## 🛠 Technologies Used
+
+* [Streamlit](https://streamlit.io/) – for building the web interface.
+* [Googletrans](https://pypi.org/project/googletrans/) – for text translation.
+* [SpeechRecognition](https://pypi.org/project/SpeechRecognition/) – for recognizing speech.
+* [pyttsx3](https://pypi.org/project/pyttsx3/) – for converting text to speech.
+* [langdetect](https://pypi.org/project/langdetect/) – for automatic language detection.
+* [pydub](https://pypi.org/project/pydub/) – for audio file conversion (used in other features).
+
+---
+
+## 🔧 Installation
+
+1. **Clone the Repository**
+
+```bash
+git clone https://github.com/your-username/language-translator-streamlit.git
+cd language-translator-streamlit
+```
+
+2. **Create Virtual Environment (Optional)**
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+
+3. **Install Dependencies**
+
+```bash
+pip install -r requirements.txt
+```
+
+**Note:** You may need to install additional audio dependencies like `pyaudio`.
+
+---
+
+## ▶️ Running the App
+
+```bash
+streamlit run proj2.py
+```
+
+---
+
+## 🎙 Microphone Permissions
+
+For the Speech-to-Speech feature to work:
+
+* Grant microphone access to the Python process (check OS settings).
+* Run it locally; web-hosted versions may not support real-time microphone input.
+
+---
+
+## 📂 File Structure
+
+```
+├── proj2.py              # Main Streamlit app
+├── requirements.txt      # Python dependencies
+├── README.md             # Project documentation
+```
+
+---
+
+## 🙌 Acknowledgements
+
+* [Google Translate API](https://translate.google.com/)
+* [OpenAI Whisper](https://github.com/openai/whisper) (optional)
+* Community contributors of Streamlit and open-source speech libraries
+
+
+
+
