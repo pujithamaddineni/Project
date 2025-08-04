@@ -29,8 +29,8 @@ This project is a multilingual **Language Translator** built with **Streamlit**,
 1. **Clone the Repository**
 
 ```bash
-git clone https://github.com/your-username/language-translator-streamlit.git
-cd language-translator-streamlit
+git clone https://github.com/pujithamaddineni/Project.git
+cd Project
 ```
 
 2. **Create Virtual Environment (Optional)**
@@ -70,7 +70,7 @@ For the Speech-to-Speech feature to work:
 ## 📂 File Structure
 
 ```
-├── proj2.py              # Main Streamlit app
+├── final_project.py             # Main Streamlit app
 ├── requirements.txt      # Python dependencies
 ├── README.md             # Project documentation
 ```
@@ -80,7 +80,7 @@ For the Speech-to-Speech feature to work:
 ## 🙌 Acknowledgements
 
 * [Google Translate API](https://translate.google.com/)
-* [OpenAI Whisper](https://github.com/openai/whisper) (optional)
+* [OpenAI Whisper](https://github.com/openai/whisper) 
 * Community contributors of Streamlit and open-source speech libraries
 
 
