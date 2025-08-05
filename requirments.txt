@@ -2,7 +2,12 @@ streamlit
 whisper
 pydub
 googletrans==4.0.0-rc1
+deep-translator
 SpeechRecognition
 pyttsx3
 langdetect
-pyaudio
+pyaudio==0.2.11
+
+# Make sure ffmpeg is installed on your system and added to PATH
+
+
