@@ -104,7 +104,7 @@ For the Speech-to-Speech feature to work:
 ## 🔗 Live Demo
 
 Check out the deployed app here:  
-👉 [Streamlit App](https://project-9aklfrwrhvlhf898p7fbmk.streamlit.app/)
+👉 [🗣️ Live Translator App](https://huggingface.co/spaces/pujithac7/translator)
 
 
 🔗 Live Demo
