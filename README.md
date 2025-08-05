@@ -50,6 +50,16 @@ pip install -r requirements.txt
 
 ---
 
+### 4. Install FFmpeg (Required for audio file handling with pydub)
+#### 📦 On Windows:
+1. Download FFmpeg zip from: https://ffmpeg.org/download.html
+2. Extract it and copy the `bin` path (e.g., `C:\ffmpeg\bin`)
+3. Add it to **System Environment Variables** → **Path**
+4. Open new terminal and test:
+```bash
+ffmpeg -version
+```
+
 ## ▶️ Running the App
 
 ```bash
@@ -70,12 +80,15 @@ For the Speech-to-Speech feature to work:
 ## 📂 File Structure
 
 ```
-├── final_project.py             # Main Streamlit app
+├── final.py             # Main Streamlit app
 ├── requirements.txt      # Python dependencies
 ├── README.md             # Project documentation
 ```
 
 ---
+## 🎯 Notes
+- Works best locally due to microphone access limitations in browsers.
+- For deployment on Streamlit Cloud, replace mic input with file upload.
 
 ## 🙌 Acknowledgements
 
@@ -83,6 +96,10 @@ For the Speech-to-Speech feature to work:
 * [OpenAI Whisper](https://github.com/openai/whisper) 
 * Community contributors of Streamlit and open-source speech libraries
 
+## 🔗 Demo Video
+[▶️ Watch the Demo](https://drive.google.com/file/d/1uB5n76_weVGa_y2rwOR24J_l0WCo2xEl/view?usp=sharing)
+
+---
 
 
 
