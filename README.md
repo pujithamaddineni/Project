@@ -107,5 +107,7 @@ Check out the deployed app here:
 👉 [Streamlit App](https://project-9aklfrwrhvlhf898p7fbmk.streamlit.app/)
 
 
-
+🔗 Live Demo
+Check out the live demo here:
+👉 Translator App on Hugging Face Spaces
 
